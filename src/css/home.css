@@ -1,0 +1,40 @@
+/* Basic styles for portfolio home page */
+/* Created by: <Your Name> - replace with your actual name(s) */
+
+:root{
+  --bg: #0f1724;
+  --muted: #94a3b8;
+  --accent: #06b6d4;
+  --card: #0b1220;
+  --max-width: 1024px;
+}
+
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#e6eef8; background:var(--bg);}
+.container{max-width:var(--max-width); margin:0 auto; padding:1rem}
+
+/* Navbar */
+.navbar{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent); border-bottom:1px solid rgba(255,255,255,0.04);}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; padding:0.75rem 0}
+.brand{font-weight:700; color:var(--accent); text-decoration:none}
+.nav-links{list-style:none; display:flex; gap:1rem; margin:0; padding:0}
+.nav-links a{color:var(--muted); text-decoration:none}
+.nav-links a:hover{color:#fff}
+
+/* Hero */
+.hero{padding:4rem 0 2rem}
+.hero-content{padding:4rem 1rem; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:8px}
+.hero h1{font-size:2.25rem; margin:0 0 0.5rem}
+.lead{color:var(--muted); margin:0 0 1rem}
+.cta{display:inline-block; background:var(--accent); color:#032; padding:0.6rem 0.9rem; border-radius:6px; text-decoration:none; font-weight:600}
+
+/* Sections */
+section{margin-top:2rem}
+section h2{color:#dbeafe}
+section p{color:var(--muted)}
+
+/* Responsive tweaks */
+@media(min-width:768px){
+  .hero-content{display:flex; align-items:center; justify-content:space-between}
+  .hero-content h1{font-size:3rem}
+}
