@@ -38,3 +38,16 @@ section p{color:var(--muted)}
   .hero-content{display:flex; align-items:center; justify-content:space-between}
   .hero-content h1{font-size:3rem}
 }
+
+/* Footer */
+.site-footer{border-top:1px solid rgba(255,255,255,0.04); margin-top:3rem; padding:1.25rem 0; background:linear-gradient(180deg, transparent, rgba(0,0,0,0.02));}
+.footer-inner{display:flex; flex-direction:column; gap:0.75rem; align-items:start; justify-content:space-between}
+.footer-brand{color:var(--muted)}
+.footer-brand .muted{color:var(--muted); font-size:0.9rem}
+.footer-nav{display:flex; gap:1rem}
+.footer-nav a{color:var(--muted); text-decoration:none}
+.footer-meta{color:var(--muted); font-size:0.9rem}
+
+@media(min-width:768px){
+  .footer-inner{flex-direction:row; align-items:center}
+}
