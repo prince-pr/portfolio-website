@@ -1,17 +1,19 @@
-import React from 'react'
-/* Created by: Prince Pookkulam Reji */
+import { Link } from "react-router-dom";
+import "../css/navbar.css";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="container nav-inner">
-        <a className="brand" href="#">My Portfolio</a>
-        <ul className="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+      <h2 className="logo">Portfolio</h2>
+
+      <ul className="nav-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
     </nav>
-  )
-}
+  );
+};
+
+export default Navbar;

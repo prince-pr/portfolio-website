@@ -1,5 +1,5 @@
 import React from 'react'
-/* Created by: Prince Pookkulam Reji */
+import "../css/footer.css";
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -18,7 +18,7 @@ export default function Footer() {
         </nav>
 
         <div className="footer-meta">
-          <small>© {year} Your Name</small>
+          <small>© {year} Portfolio</small>
         </div>
       </div>
     </footer>
