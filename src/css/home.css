@@ -1,5 +1,7 @@
+/* Created by: Prince Pookkulam Reji */
+/* Updated by: Vivek Gengadiya */
 .hero {
-  position: relative;             
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,10 +29,10 @@
   background-position: inherit;
   background-repeat: inherit;
 
-  filter: blur(100px);              
-  transform: scale(1.1);           
+  filter: blur(100px);
+  transform: scale(1.1);
   z-index: 0;
-  opacity: 0.75;                   
+  opacity: 0.75;
 }
 
 
