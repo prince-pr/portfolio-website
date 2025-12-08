@@ -1,3 +1,5 @@
+/* Created by: Prince Pookkulam Reji */
+/* Updated by: Vivek Gengadiya */
 import React from 'react'
 import "../css/footer.css";
 

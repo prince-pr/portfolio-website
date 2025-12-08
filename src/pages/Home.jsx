@@ -1,3 +1,5 @@
+/* Created by: Prince Pookkulam Reji */
+/* Updated by: Vivek Gengadiya */
 import "../css/home.css";
 
 const Home = () => {
