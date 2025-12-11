@@ -1,5 +1,6 @@
 
 /* GLOBAL RESET*/
+/* Updated By: Viswanathan Lakshmanan */
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +24,7 @@ a {
 
 li {
   list-style: none;
+  font-size: larger;
 }
 
 img {
