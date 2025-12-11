@@ -1,3 +1,4 @@
+/* By Viswanathan Lakshmanan */
 import React from "react";
 import "../css/loadingSpinner.css";
 
