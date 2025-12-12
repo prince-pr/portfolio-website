@@ -1,7 +1,9 @@
 /* Created by: Prince Pookkulam Reji */
 /* Updated by: Vivek Gengadiya */
+// Further updated by: Viswanathan Lakshmanan */
 import React from 'react'
 import "../css/footer.css";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -14,9 +16,9 @@ export default function Footer() {
         </div>
 
         <nav className="footer-nav" aria-label="Footer navigation">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
 
         <div className="footer-meta">
